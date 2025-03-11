@@ -10,7 +10,7 @@ Currently, we are providing security updates for the following versions:
 
 ## Reporting a Vulnerability
 
-We take the security of NanMeng API Key Manager seriously. If you believe you've found a security vulnerability, please follow these steps:
+We take the security of API Key Manager seriously. If you believe you've found a security vulnerability, please follow these steps:
 
 1. **Do not disclose the vulnerability publicly**
 2. **Email us at [security@nanmengtech.com](mailto:security@nanmengtech.com)** with details about the vulnerability
@@ -28,5 +28,5 @@ After you've submitted a vulnerability report:
 3. We will work on addressing the vulnerability and will keep you updated on our progress
 4. Once the vulnerability is fixed, we will publicly acknowledge your responsible disclosure (unless you prefer to remain anonymous)
 
-Thank you for helping keep NanMeng API Key Manager and its users safe!
+Thank you for helping keep API Key Manager and its users safe!
 
