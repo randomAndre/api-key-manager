@@ -374,7 +374,7 @@ export default function SettingsForm() {
                 onChange={(e) => setNewPassword(e.target.value)}
                 required
               />
-              <p className="text-xs text-muted-foreground">密码长度至少为6个字符</p>
+              <p className="text-xs text-muted-foreground">{t("settings.passwordLengthHint")}</p>
             </div>
 
             <div className="space-y-2">
