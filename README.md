@@ -9,7 +9,10 @@
  <a href="README_CN.md">简体中文</a>
 </p>
 
-A secure and efficient API key management system that helps developers and teams easily manage API keys for various AI models. One-click to recharge/test connection.
+A secure and efficient API key management system that helps developers and teams easily manage API keys for various AI models.
+
+## Preface
+The API Key Manager aims to provide AI developers and enterprises with a one-stop solution for API key management. In today's diverse AI service environment, managing API keys from multiple providers is both cumbersome and poses security risks. This system helps users efficiently organize and utilize various AI service keys through secure encrypted storage, status monitoring, and convenient management features, reducing the risk of leakage and improving development efficiency. Whether you are an individual developer or an enterprise user, the API Key Manager can meet your API key management needs. Of course, not only can it manage AI-related keys, but other related keys can also be uniformly managed using this manager.
 
 ## ✨ Features
 
@@ -134,7 +137,7 @@ yarn start
 ```
 
 
-6. **Docker Deployment (Optional)**
+6. ### Docker Deployment
 
 You can also deploy using Docker:
 
@@ -149,7 +152,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 
 
 
-## Usage
+## 🚀 Usage
 
 ### First-time Setup
 
@@ -191,7 +194,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 6. Store sensitive information such as API keys and encryption keys in environment variables.
 
 
-## Configuration Options
+## Configuration
 
 ### Environment Variables
 
