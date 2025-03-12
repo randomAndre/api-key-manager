@@ -171,13 +171,12 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 
 3. 填写所需信息：
 
-   名称：密钥的描述性名称
-   提供商：服务提供商（OpenAI、Anthropic等）
-   密钥类型：简单API密钥或复合密钥
-   API密钥：您的实际API密钥
-   复合密钥的附加字段（AppID、Secret Key）
-   基础URL：API端点URL（为已知提供商提供默认值）
-   充值URL：提供商的账单页面链接（建议填写）
+   - 名称：密钥的描述性名称
+   - 提供商：服务提供商（OpenAI、Anthropic等）
+   - 密钥类型：简单API密钥或复合密钥
+   - API密钥：您的实际API密钥/复合密钥的附加字段（AppID、Secret Key）
+   - 基础URL：API端点URL（为已知提供商提供默认值）
+   - 充值URL：提供商的账单页面链接（建议填写）
 
 4. 要测试密钥的连接，请使用仪表板上的"测试"按钮。
 
