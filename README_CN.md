@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/79b35f45-28f9-4277-8bc8-c10e52fc3357)# API密钥管理器
+# API密钥管理器
 
 <p align="center">
  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/75cda7542df94f9e8534d82f9e31cae3_3-1flDTgHIuogz0ioIUPjC3BE9xbsIdP.png" alt="南梦API密钥管理器 Logo" width="120" />
