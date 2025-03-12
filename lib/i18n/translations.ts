@@ -1,4 +1,4 @@
-// 添加缺失的翻译键，特别是错误通知相关的翻译
+// 更新翻译不足问题
 export type TranslationKey =
   | "common.loading"
   | "common.refresh"
@@ -219,6 +219,7 @@ export type TranslationKey =
   | "home.contact.subtitle"
   | "home.footer.copyright"
   | "api.status.urlTestDescription"
+  | "settings.passwordLengthHint"
 
 export interface Translations {
   [key: string]: string
@@ -357,6 +358,7 @@ export const zhCN: Translations = {
   "settings.languageDescription": "选择您偏好的界面语言",
   "settings.selectLanguage": "选择语言",
   "settings.languageChanged": "语言已更改",
+  "settings.passwordLengthHint": "密码长度至少为6个字符",
 
   // 提示相关
   "toast.copied": "已复制",
@@ -553,6 +555,7 @@ export const enUS: Translations = {
   "settings.languageDescription": "Select your preferred interface language",
   "settings.selectLanguage": "Select Language",
   "settings.languageChanged": "Language changed",
+  "settings.passwordLengthHint": "Password must be at least 6 characters",
 
   // 提示相关
   "toast.copied": "Copied",
