@@ -171,13 +171,12 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 
 3. Fill in the required information:
 
-   Name: Descriptive name for the key
-   Provider: Service provider (e.g., OpenAI, Anthropic)
-   Key Type: Simple API key or Composite key
-   API Key: Your actual API key
-   Additional fields for Composite key (AppID, Secret Key)
-   Base URL: API endpoint URL (default values for known providers)
-   Billing URL: Link to the provider's billing page (recommended)
+   - Name: Descriptive name for the key
+   - Provider: Service provider (e.g., OpenAI, Anthropic)
+   - Key Type: Simple API key or Composite key
+   - API Key: Your actual API key Additional fields for Composite key (AppID, Secret Key)
+   - Base URL: API endpoint URL (default values for known providers)
+   - Billing URL: Link to the provider's billing page (recommended)
 
 4. To test a key's connection, use the "Test" button on the dashboard.
 
