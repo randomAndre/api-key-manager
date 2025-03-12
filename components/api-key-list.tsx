@@ -441,9 +441,7 @@ export default function ApiKeyList() {
                         value={newKey.baseUrl}
                         onChange={(e) => setNewKey({ ...newKey, baseUrl: e.target.value })}
                       />
-                      <p className="text-xs text-muted-foreground">
-                        请输入完整的API URL，包括路径。此URL将用于测试连接。
-                      </p>
+                      <p className="text-xs text-muted-foreground">{t("apiKeys.baseUrlDescription")}</p>
                     </div>
                   </div>
                 </div>
@@ -569,9 +567,7 @@ export default function ApiKeyList() {
                         value={editingKey.baseUrl || ""}
                         onChange={(e) => setEditingKey({ ...editingKey, baseUrl: e.target.value })}
                       />
-                      <p className="text-xs text-muted-foreground">
-                        请输入完整的API URL，包括路径。此URL将用于测试连接。
-                      </p>
+                      <p className="text-xs text-muted-foreground">{t("apiKeys.baseUrlDescription")}</p>
                     </div>
                   </div>
                 </div>
