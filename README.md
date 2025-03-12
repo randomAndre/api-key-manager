@@ -18,7 +18,7 @@ The API Key Manager aims to provide AI developers and enterprises with a one-sto
 
 - [x] 🔑 **API Key Management**: Securely store and manage API keys from multiple AI service providers
 - [x] 🔒 **Security Encryption**: Protect your API keys with advanced encryption technology
-- [x] 📊 **Status Monitoring**: Monitor API key connection status in real time
+- [x] ⚡ **Status Monitoring**: Monitor API key connection status in real time
 - [x] 🌐 **Multi-language Support**: Switch between Chinese and English interfaces
 - [x] ⚙️ **Custom Settings**: Customize system settings and preferences according to your needs
 - [x] 🔄 **Connection Testing**: Test API connections directly from the dashboard
@@ -35,7 +35,7 @@ The API Key Manager aims to provide AI developers and enterprises with a one-sto
 - [Usage](#-usage)
 - [Configuration](#-configuration)
 
-## 🚀 Demo
+## 📸 Demo
 
 Visit our [demo site](https://www.a888.online) to experience the application.
 
@@ -183,7 +183,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
    Note: Not only AI keys, but all related keys can be configured and stored.
 
 
-## Security Recommendations
+## ⚠️ Security Recommendations
 
 1. Change the default admin password immediately after first login.
 2. Use a strong, unique `ENCRYPTION_KEY` for production deployments.
@@ -193,7 +193,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 6. Store sensitive information such as API keys and encryption keys in environment variables.
 
 
-## Configuration
+## 🛠️ Configuration
 
 ### Environment Variables
 
