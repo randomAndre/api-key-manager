@@ -1,4 +1,4 @@
-# API密钥管理器
+![image](https://github.com/user-attachments/assets/79b35f45-28f9-4277-8bc8-c10e52fc3357)# API密钥管理器
 
 <p align="center">
  <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/75cda7542df94f9e8534d82f9e31cae3_3-1flDTgHIuogz0ioIUPjC3BE9xbsIdP.png" alt="南梦API密钥管理器 Logo" width="120" />
@@ -17,7 +17,7 @@ API秘钥管理器旨在为AI开发者和企业提供一站式API密钥管理解
 
 - [x] 🔑 **API密钥管理**: 安全地存储和管理来自多个AI服务提供商的API密钥
 - [x] 🔒 **安全加密**: 使用高级加密技术保护您的API密钥
-- [x] 📊 **状态监控**: 实时监控API密钥的连接状态
+- [x] ⚡ **状态监控**: 实时监控API密钥的连接状态
 - [x] 🌐 **多语言支持**: 在中文和英文界面之间切换
 - [x] ⚙️ **自定义设置**: 根据您的需求自定义系统设置和偏好
 - [x] 🔄 **连接测试**: 直接从仪表盘测试API连接
@@ -34,7 +34,7 @@ API秘钥管理器旨在为AI开发者和企业提供一站式API密钥管理解
 - [使用](#-使用指南)
 - [配置](#-配置选项)
 
-## 🚀 演示
+## 📸 演示
 
 访问我们的[演示站点](https://www.a888.online)体验应用程序。
 
@@ -183,7 +183,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
    注：不止是AI密钥，所有相关密钥皆可配置存储
 
 
-### 安全建议
+### ⚠️ 安全建议
 
 1. 首次登录后立即更改默认管理员密码。
 2. 为生产部署使用强大且唯一的`ENCRYPTION_KEY`。
@@ -192,7 +192,7 @@ docker run -p 3000:3000 -e ENCRYPTION_KEY=your-secure-key -e ALLOW_REGISTRATION=
 5. 定期更换您的API密钥以降低风险。
 6. 使用环境变量存储敏感信息，如API密钥和加密密钥。
 
-## ⚙️ 配置选项
+## 🛠️ 配置选项
 
 ### 环境变量
 
