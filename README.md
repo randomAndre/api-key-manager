@@ -14,6 +14,8 @@ A secure and efficient API key management system that helps developers and teams
 ## Preface
 The API Key Manager aims to provide AI developers and enterprises with a one-stop solution for API key management. In today's diverse AI service environment, managing API keys from multiple providers is both cumbersome and poses security risks. This system helps users efficiently organize and utilize various service keys through secure encrypted storage, status monitoring, and convenient management features, reducing the risk of leakage and improving development efficiency. The system employs local storage technology, ensuring your sensitive key information is not uploaded to the cloud, further enhancing data security and privacy protection. Whether you are an individual developer or an enterprise user, the API Key Manager can meet your API key management needs. Of course, not only can it manage AI-related keys, but other related keys can also be uniformly managed using this manager.
 
+For example, when using the  [dify](https://github.com/langgenius/dify)  project, you need to fill in multiple API keys for large AI models, which can be a headache. This is also one of the starting points of this project.
+
 ## ✨ Features
 
 - [x] 🔑 **API Key Management**: Securely store and manage API keys from multiple AI service providers
